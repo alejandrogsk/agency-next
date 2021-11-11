@@ -19,7 +19,7 @@ const Header = ({ menu }) => {
                 ))
             }
             </ul>
-            {/* <MobileMenu menu={menu}/> */}
+            <MobileMenu menu={menu}/>
         </header>
     );
 }

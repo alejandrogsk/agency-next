@@ -14,7 +14,6 @@ export default function Home() {
 
   let data = locale === 'es' ? HomeSpanish : HomeEnglish;
 
-  console.log(data)
 
   return (
     <Layout>
@@ -24,10 +23,6 @@ export default function Home() {
         <meta name="description" content={data.head.metaContent}/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      
-
-
 
       <main>
         <section className="hero">
@@ -43,7 +38,14 @@ export default function Home() {
 
             <div className="section2__container--content">
               <p>{data.section2.content}</p>
-              <img src={data.section2.image.src} alt={data.section2.image.alt}/>
+              
+              <div>
+                <Image 
+                  src={data.section2.image.src} 
+                  alt={data.section2.image.alt} 
+                  layout="fill"
+                />
+              </div>
             </div>
 
             <div className="btn btn__yellow">
@@ -61,9 +63,11 @@ export default function Home() {
           <p>{data.section3.subtitle}</p>
           <div className="section3__services">
             {
-              data.section3.services.map(service => (
-                <article>
-                  <img src={service.image}/>
+              data.section3.services.map((service, i) => (
+                <article key={i}>
+                  <div>
+                    <Image src={service.image} layout="fill" alt={service.title}/>
+                  </div>
                   <h3>{service.title}</h3>
                   <p>{service.content}</p>
                   
@@ -92,9 +96,7 @@ export default function Home() {
 
             </div>
           
-            <div className="section4__image">
-
-            </div>
+            <div className="section4__image"></div>
 
         </section>
 
@@ -113,9 +115,15 @@ export default function Home() {
 
             <div className="section5__grid--services">
               {
-                data.section5.services.map(service => (
-                  <div className="section5__grid--services-service">
-                    <img src={service.image} />
+                data.section5.services.map((service, i) => (
+                  <div key={i} className="section5__grid--services-service">
+                    <div className="section5__grid--services-service__imgcontainer">
+                      <Image 
+                        src={service.image}
+                        layout="fill"
+                        alt={service.title}
+                      />
+                    </div>
                     <h4>{service.title}</h4>
                     <p>{service.content}</p>
                   </div>
@@ -123,24 +131,30 @@ export default function Home() {
               }
             </div>
           </div>
-
+              
           <div className="section5__media">
                 {
                   data.section5.social_media.map((social, i) => (
-                    <img key={i} src={social.image} alt={social.alt}/>
+                    <div key={i} className="section5__media--item">
+                      <Image 
+                        src={social.image}
+                        alt={social.alt}
+                        layout="fill"
+                        
+                      />
+                    </div>
                   ))
                 }
           </div>
             
-
             
 
         </section>
 
+for
 
-
-        <section style={{height: '100vh'}}>
-
+        <section style={{height: '100vh', with: "100%"}}>
+        
         </section>
 
       </main>

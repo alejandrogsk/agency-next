@@ -9,7 +9,7 @@ const MobileMenu = ({ menu }) => {
                 id="navi-toggle"
             />
 
-            <label for="navi-toggle" className="navbar__responsive--button">
+            <label htmlFor="navi-toggle" className="navbar__responsive--button">
                 <span className="navbar__responsive--icon">&nbsp;</span>
             </label>
 

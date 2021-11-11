@@ -28,15 +28,17 @@
                 }
             }
 
-            & > img {
-                height: 15rem;
+            & > div {
+                object-fit: contain;
+                position: relative;
                 margin: 0 auto;
-                width: auto;
+
                 @include respond( tab-port ) {       
                     grid-column-start: 1;
                     grid-row-start: 1;
                 }
             }
+
         }
 
     }

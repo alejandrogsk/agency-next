@@ -83,17 +83,23 @@
                 &:first-child {
                     background-color: $yellow;
 
-                    & > img {
-                        filter: invert(100%) sepia(4%) saturate(17%) hue-rotate(202deg) brightness(107%) contrast(106%); 
+                    & > div > span > img {
+                        filter: invert(100%) sepia(4%) saturate(17%) hue-rotate(202deg) brightness(107%) contrast(106%);  
                     }
                 }
 
+                & {
+                    background-color: $white;
 
+                    & > div > span > img {
+                        filter: invert(97%) sepia(60%) saturate(7141%) hue-rotate(341deg) brightness(93%) contrast(117%); 
+                    }
+                }
 
-                & > img {
-                    filter: invert(97%) sepia(60%) saturate(7141%) hue-rotate(341deg) brightness(93%) contrast(117%); 
-                    height:auto;
-                    width: 1.8rem;
+                &__imgcontainer {
+                    height: 2rem;
+                    width: 2rem;
+                    position: relative;
                 }
 
                 & > h4 {
@@ -112,11 +118,16 @@
 
     &__media {
         margin: 2rem 0;
-        & > img {
-            height: auto;
+        display:grid;
+        grid-template-columns: repeat(5, min-content);
+        &--item {
+            position: relative;
+            height: 2rem;
             width: 2rem;
             margin: 0 1rem;
         }
     }
+
+    
 
 }

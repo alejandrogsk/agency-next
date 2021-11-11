@@ -55,9 +55,10 @@
                 transform: translateY(-5px);
             }
 
-            & > img {
-                height: auto;
-                width:2rem;
+            & > div {
+                position: relative;
+                height:2rem;
+                width: 2rem;
             }
 
             & > h3 {
@@ -73,16 +74,15 @@
 
         & > article:first-child {
             background-color: $yellow;
-
-            & > img { 
-                filter: invert(100%) sepia(4%) saturate(17%) hue-rotate(202deg) brightness(107%) contrast(106%); 
+            & > div > span > img{
+                filter: invert(100%) sepia(4%) saturate(17%) hue-rotate(202deg) brightness(107%) contrast(106%);     
             }
         }
 
         & > article:last-child {
             background-color: $white;
 
-            & > img { 
+            & > div > span > img { 
                 filter: invert(97%) sepia(60%) saturate(7141%) hue-rotate(341deg) brightness(93%) contrast(117%); 
             }
         }

@@ -21,14 +21,18 @@
         list-style: none;
         margin: 0;
 
+        @include respond( tab-port ) {
+            display: none;
+        }
+
         & > li{
             color: $white;
             margin-left: .75rem;
             text-transform: capitalize;
             font-weight: 500;
-        &:hover {
-            color: $yellow;
-        }
+            &:hover {
+                color: $yellow;
+            }
         }
     }
 }
