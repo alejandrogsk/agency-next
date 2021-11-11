@@ -1,0 +1,11 @@
+.line {
+    display: block;   
+    height: 3px;
+    width: 13.5rem;
+
+    &__yellow { background-color:$yellow; }
+
+    &__white { background-color:$white; }
+}
+
+

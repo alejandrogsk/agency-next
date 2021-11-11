@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto+Condensed:wght@300;700&display=swap');
+
+
+@import './global/globals.scss';
+@import './global/variables.scss';
+@import './global/mixins';
+
+
+@import './layout/header.scss';
+@import 'layout/navbar';
+
+@import './home/hero.scss';
+@import './home/section2.scss';
+@import './home/section3.scss';
+@import './home/section4.scss';
+@import './home/section5.scss';
+
+
+
+@import './components/lines.scss';
+@import './components/buttons.scss';

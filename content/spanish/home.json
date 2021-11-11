@@ -1,0 +1,80 @@
+{
+    "title": "Expodev",
+    "head": {
+        "meta-title":"Desarrollo de productos digitales",
+        "meta-content": "Esta es el contenido del header, creo que sirve para el seo"
+    },
+    "hero":{
+        "h1": "DISEÑO Y DESARROLLO DE PRODUCTOS DIGITALES",
+        "description":"Somos una agencia de desarrollo y marketing digital ubicada en Crespo, Entre Ríos, nos dedicamos a ayudar a pymes y emprendedores a digitalizar su relacion con sus clientes."
+    },
+    "section2": {
+        "content": "Nos enfocamos en construir una relacion con nuestros clientes. De esta forma podemos entender mejor sus necesidades y así construír mejores productos.",
+        "image": {
+            "src": "/svg_ilustrations/two_people.svg",
+            "alt": "Esta es mi imagen"
+        },
+        "cta": {
+            "title": "Contactanos",
+            "path": "/"
+        }
+    },
+    "section3": {
+        "title": "Problemas modernos requireren soluciones modernas",
+        "subtitle": "La tecnología ha tenido un impacto en las empresas de todos los sectores, sin lugar a dudas este es un fenomeno que va en aumento. Si su negocio no esta utilizando tecnologia, es hora de empezar a hacerlo.",
+        "services": [
+            {
+                "title": "ecommerce",
+                "content":"La tecnología ha tenido un impacto en las empresas de todos los sectores, sin lugar a dudas este es un fenomeno que va en aumento. Si su negocio no esta utilizando tecnologia, es hora de empezar a hacerlo.",
+                "image": "/svg_services/shopping-bag.svg"
+            },
+            {
+                "title": "websites",
+                "content":"La tecnología ha tenido un impacto en las empresas de todos los sectores, sin lugar a dudas este es un fenomeno que va en aumento. Si su negocio no esta utilizando tecnologia, es hora de empezar a hacerlo.",
+                "image": "/svg_services/webdev.svg"
+            }
+        ]
+    },
+    "section4": {
+        "title": "NUESTRA ESPECIALIDAD ES EL DESARROLLO DE ECOMMERCE",
+        "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "cta": {
+            "title":"ver más",
+            "path": "/"
+        }
+    },
+    "section5": {
+        "title": "Hagamos crecer tus ventas con marketing digital",
+        "services": [
+            { 
+                "title": "MARKETING DIGITAL",
+                "image": "/svg_services/check.svg",
+                "content": "Desarrollamos una campaña de marketing y publicidad digital a la medida de tu negocio."
+            },
+            { 
+                "title": "PUBLICIDAD EN REDES",
+                "image": "/svg_services/check.svg",
+                "content": "Creamos campañas de publicidad digital, atravez de anuncios graficos en instagram y facebook."
+            },
+            { 
+                "title": "GOOGLE ADS",
+                "image": "/svg_services/check.svg",
+                "content": "Anuncios que llegan a las personas en el momento en que se interesan por los productos y servicios que ofrece."
+            },
+            { 
+                "title": "ANALITICA DIGITAL",
+                "image": "/svg_services/check.svg",
+                "content": "Con herramientas de analitica digital medimos los resultados de nuestras campañas para poder medir nuestro rendimiento."
+            }
+        ],
+        "social_media": [
+            { "image": "/social/instagram.svg", "alt": "instagram" },
+            { "image": "/social/facebook.svg", "alt": "facebook" },
+            { "image": "/social/google-ads.svg", "alt": "google ads" },
+            { "image": "/social/whatsapp.svg", "alt": "whatsapp" },
+            { "image": "/social/messenger.svg", "alt": "messenger" }
+        ]
+    }
+
+    
+}

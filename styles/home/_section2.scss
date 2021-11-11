@@ -1,0 +1,43 @@
+.section2{
+    background-color: $light-gray;
+    padding: 6rem 4rem;
+
+    @include respond( tab-port ) { padding: 3rem 2rem 4.5rem; }
+    
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        &--content {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 60% 1fr;
+            justify-content: space-between;
+
+            @include respond( tab-port ) {
+                grid-template-columns: 1fr;
+                justify-content: center;
+            }
+
+            & > p {
+                font-size: 2rem;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-weight: 700;
+                @include respond( tab-port ) {       
+                    text-align: center;
+                }
+            }
+
+            & > img {
+                height: 15rem;
+                margin: 0 auto;
+                width: auto;
+                @include respond( tab-port ) {       
+                    grid-column-start: 1;
+                    grid-row-start: 1;
+                }
+            }
+        }
+
+    }
+}

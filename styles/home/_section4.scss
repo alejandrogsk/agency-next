@@ -1,0 +1,41 @@
+.section4 {
+    background-color: $yellow;    
+    display:  grid;
+    grid-template-columns: repeat(2,50%);
+
+    @include respond( tab-port ) {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    &__content {
+        padding: 6rem 4rem;
+
+        & h2{
+            font-size:2.25rem;
+        }
+
+        @include respond( tab-port ) {
+            padding: 3rem 2rem;
+        }
+
+    }    
+
+    &__image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/ecommerce.jpg");
+        background-size: cover;
+        background-position: center;
+
+        @include respond( tab-port ) {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            height: 30rem;
+            width: 100%;
+        }
+
+        @include respond( phone-tab ) {       
+            height: 20rem;
+        }
+
+    }
+}

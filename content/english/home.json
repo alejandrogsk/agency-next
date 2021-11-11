@@ -1,0 +1,80 @@
+{
+    "title": "Expodev",
+    "head": {
+        "metaTitle":"Development of digital products",
+        "metaContent": "Esta es el contenido del header, creo que sirve para el seo"
+    },
+    "hero":{
+        "h1": "Design and development of digital products",
+        "description":"We are a digital development and marketing agency located in Argentina. We are dedicated to helping businesses and entrepreneurs digitize their relationship with their customers."
+    },
+    "section2": {
+        "content": "We focus on building a relationship with our clients. In this way we can better understand their needs and thus build better products.",
+        "image": {
+            "src": "/svg_ilustrations/two_people.svg",
+            "alt": "THis is my image"
+        },
+        "cta": {
+            "title": "Contact Us",
+            "path": "#"
+        }
+    },
+    "section3": {
+        "title": "Modern problems require modern solutions",
+        "subtitle": "Technology has had an impact on companies in all sectors, without a doubt this is a phenomenon that is increasing. If your business isn't using technology, it's time to start doing it.",
+        "services": [
+            {
+                "title": "ecommerce",
+                "content":"La tecnología ha tenido un impacto en las empresas de todos los sectores, sin lugar a dudas este es un fenomeno que va en aumento. Si su negocio no esta utilizando tecnologia, es hora de empezar a hacerlo.",
+                "image": "/svg_services/shopping-bag.svg"
+            },
+            {
+                "title": "websites",
+                "content":"La tecnología ha tenido un impacto en las empresas de todos los sectores, sin lugar a dudas este es un fenomeno que va en aumento. Si su negocio no esta utilizando tecnologia, es hora de empezar a hacerlo.",
+                "image": "/svg_services/webdev.svg"
+            }
+        ]
+    },
+    "section4": {
+        "title": "OUR SPECIALTY IS THE DEVELOPMENT OF ECOMMERCE",
+        "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "cta": {
+            "title":"see more",
+            "path": "/"
+        }
+    },
+    "section5": {
+        "title": "Let's grow your sales with digital marketing",
+        "services": [
+            { 
+                "title": "Digital Marketing",
+                "image": "/svg_services/check.svg",
+                "content": "We develop a digital marketing and advertising campaign tailored to your business."
+            },
+            { 
+                "title": "Social Ads",
+                "image": "/svg_services/check.svg",
+                "content": "We create digital advertising campaigns, through graphic ads on instagram and facebook."
+            },
+            { 
+                "title": "Google Ads",
+                "image": "/svg_services/check.svg",
+                "content": "Ads that reach people the moment they are interested in the products and services you offer."
+            },
+            { 
+                "title": "ANALITICA DIGITAL",
+                "image": "/svg_services/check.svg",
+                "content": "With digital analytics tools we measure the results of our campaigns in order to measure our performance."
+            }
+        ],
+        "social_media": [
+            { "image": "/social/instagram.svg", "alt": "instagram" },
+            { "image": "/social/facebook.svg", "alt": "facebook" },
+            { "image": "/social/google-ads.svg", "alt": "google ads" },
+            { "image": "/social/whatsapp.svg", "alt": "whatsapp" },
+            { "image": "/social/messenger.svg", "alt": "messenger" }
+        ]
+    }
+
+    
+}
